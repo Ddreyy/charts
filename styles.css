@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10px;
+    width: 150vh;
+    height: 40px;
+    border: 1px solid #EEF1FF;
+    border-radius: 20px;
+    background : #EEF1FF;
+  }
+  
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+.header1{
+    margin: 12px;
+    height: 9px;
+    width: 300px;
+    border: 1px solid #8888ab;
+    border-radius: 20px;
+    background: #8888ab;
+}
+
+.header2{
+    margin: 12px;
+    height: 9px;
+    width: 100px;
+    border: 1px solid #8888ab;
+    border-radius: 20px;
+    background: #8888ab;
+}
+
+
+/* chart  */
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+.bars{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    background: #EEF1FF;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #EEF1FF;
+}
+
+.bars li{
+    display: table-cell;
+    width: 100px;
+    height: 500px;
+    position: relative;
+}
+
+
+.bars .bar{
+    display: block; 
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-left: 100px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  
+}
+
+.purple{
+    background: rgba(69, 38, 142, 0.887);
+    height: 250px;
+}
+
+.blue{
+    background: rgb(64, 64, 215);
+    height: 350px;
+}
+
+.red{
+    background: rgb(187, 58, 58);
+    height: 150px;
+}
+
+.blu{
+    background: rgb(64, 64, 215);
+    height: 250px;
+}
+
+
+/* pie chart */
+
+.pies{
+    
+    background: #EEF1FF;
+    width: 600px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0#EEF1FF;
+}
+
+.pie{
+    padding: 7.5rem;
+}
+
+.piee{
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50%;
+    margin-left: 30px;
+    background: repeating-conic-gradient(
+        from 0deg,
+        rgb(64, 64, 215) 0deg calc(3.6deg * 20),
+        rgba(69, 38, 142, 0.887) calc(3.6deg * 20) calc(3.6deg * 55),
+        rgb(187, 58, 58) calc(3.6deg * 55) calc(3.6deg * 100)
+
+    );
+
+}
+
+
+/* contact */
+
+.contact{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.first-contact{
+    display: flex;
+
+}
+
+.first{
+    width: 50%;
+    margin-top: 20px;
+    margin-left:7rem;
+
+}
+
+.first-name{
+    border: 1px solid #EEF1FF;
+    border-radius: 50%;
+    background: #EEF1FF;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+    color: rgb(24, 24, 185);
+    font-size: 20px;
+}
+
+.first-names{
+    display: block;
+    padding: 10px;
+}
+
+.first-name1{
+    height: 15px;
+    width: 300px;
+    border: 1px solid #8888ab;
+    border-radius: 20px;
+    background: #8888ab;
+}
+
+.first-name2{
+    height: 15px;
+    width: 170px;
+    border: 1px solid #EEF1FF;
+    border-radius: 20px;
+    background: #EEF1FF;
+    margin: 2px;
+}
+
+
+.second-name1{
+    height: 15px;
+    width: 350px;
+    border: 1px solid #8888ab;
+    border-radius: 20px;
+    background: #8888ab;
+}
+
+.second-name2{
+    height: 15px;
+    width: 220px;
+    border: 1px solid #EEF1FF;
+    border-radius: 20px;
+    background: #EEF1FF;
+    margin: 2px;
+}
+
+
+/* last contact */
+.last{
+    width: 50%;
+    margin-right: 60px;
+    margin-top: 20px;
+    
+}
+
+
+.third-name1{
+    height: 15px;
+    width: 200px;
+    border: 1px solid#8888ab;
+    border-radius: 20px;
+    background: #8888ab;
+}
+
+.third-name2{
+    height: 15px;
+    width: 350px;
+    border: 1px solid #EEF1FF;
+    border-radius: 20px;
+    background: #EEF1FF;
+    margin: 2px;
+}
+ 
+
+.fourth-name1{
+    height: 15px;
+    width: 320px;
+    border: 1px solid #8888ab;
+    border-radius: 20px;
+    background: #8888ab;
+}
+
+.fourth-name2{
+    height: 15px;
+    width: 240px;
+    border: 1px solid #EEF1FF;
+    border-radius: 20px;
+    background: #EEF1FF;
+    margin: 2px;
+}
+ 
